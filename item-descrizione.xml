@@ -12,7 +12,7 @@
           <dc:publisher>RGK Online</dc:publisher>
           <dc:type>Immagine</dc:type>
           <dc:format xsi:type="dcterms:IMT">image/jpeg</dc:format>
-          <dc:identifier xsi:type="dcterms:URI">http://www.ukoln.ac.uk/ </dc:identifier>
+          <dc:identifier xsi:type="dcterms:URI">https://noemka.github.io/progetto-copisti-greci/</dc:identifier>
           <dc:language>EL</dc:language>
           <dc:coverage>Bologna, 2021-06-05</dc:coverage>
           <dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/aat/30025292">Bologna</dc:coverage>
