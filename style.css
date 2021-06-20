@@ -1,0 +1,222 @@
+/* *{
+  font-family: 'Dancing Script', cursive;
+} */
+header {display: flex;
+  background-image: url(Immagini/manoscritto.jpg);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: left;
+}
+h1 {
+
+  color: #EAEAEA;
+  font-family: 'Unna', serif;
+  justify-content:left;
+  border-radius: 20px;
+  background-color: rgba(132, 5, 33 ,0.7);
+  padding:20px;
+  height: 100px;
+  margin-left: 80px;
+
+}
+
+
+h2 {
+  color:#840521;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.link {
+  color:#840521;
+}
+
+.link:hover{
+  color:#840521;
+}
+
+h3 {
+  color:#840521;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color:white;
+}
+
+.card-body{
+  box-shadow: 2px 5px 5px #840521; ;
+
+}
+
+.box{
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  margin: 0 15px;
+  box-shadow: 1px 1px 2px black;
+}
+
+
+.row{
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.bg-wine{
+  background-color:#840521;
+}
+
+.bg-chiaro{
+  background-color: #840521;
+  filter: contrast(.8);
+}
+
+.min-1{
+  background-image: url("Immagini/miniatura-1.jpg");
+  background-position: center;
+}
+
+.min-2{
+  background-image: url("Immagini/miniatura-2.jpg");
+  background-position: center;
+}
+
+.min-3{
+  background-image: url("Immagini/miniatura-3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.min-4{
+  background-image: url("Immagini/miniatura-4.jpg");
+  background-position: center;
+}
+
+.min-5{
+  background-image: url("Immagini/miniatura-5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.min-6{
+  background-image: url("Immagini/miniatura-6.jpg");
+  background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+width:100%;
+height:100%;
+background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+opacity:0;
+transition: opacity 2s linear;
+}
+
+.box:hover .overlay{
+  opacity:1;
+}
+
+
+.box p{
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  position: relative;
+  top:30%;
+  line-height: 25px;
+}
+
+.box a{
+  color:white;
+}
+
+.box a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+footer {
+  padding:50px;
+  text-align: center;
+  background-color: #840521;
+  margin-top: 20px;
+  color:white;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+
+}
+
+.btn-danger {
+  background-color: #840521;
+  color: white;
+  border-color: #840521;
+}
+
+.btn-danger:hover{
+  color: #840521;
+  background-color: white;
+  border-color: #840521;
+}
+
+.btn-outline-danger {
+  border-color: #840521;
+  color:#840521;
+}
+
+.btn-outline-danger:hover {
+  background-color: #840521;
+  border-color: #840521;
+}
+
+.btn-outline-success {
+  border-color: white;
+  color: white;
+
+
+}
+.btn-outline-success:hover{
+  border-color: white;
+  background-color: white;
+  color: #840521;
+}
+
+.bg-light {
+  background-color: #840521!important; 
+}
+
+.dropdown-menu{
+  background-color: #840521;
+}
+
+/* .dropdown-menu:hover{
+  color: #900C3F;
+} */
+
+.card{
+  border-color:#840521;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  padding:10px 15px;
+  transition:border-radius 2s;
+
+
+
+}
+
+footer a:hover{
+  background-color: white;
+  color: #840521;
+  border-radius: 20px;
+
+
+
+}

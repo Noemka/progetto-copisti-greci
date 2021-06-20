@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns:xw="http://www.3di.it/ns/xw-200303121136">
+  <eadheader>
+    <eadid>GG0520029137</eadid>
+    <filedesc>
+        <titlestmt>
+            <titleproper>Documento di concessione di privilegi ai monaci di S. Pietro di Taranto</titleproper>
+        </titlestmt>
+    </filedesc>
+</eadheader>
+<c>
+  <unitid>00001</unitid>
+  <unittitle> Montecassino, Archivio dell’Abbazia, Aula ii, caps. xviii, fasc. I,
+doc. 1</unittitle>
+  <unitdate>(975) 6483, maggio, ind. III</unitdate>
+</c>
+</ead>

@@ -1,0 +1,108 @@
+header {display: flex;
+  background-image: url(Immagini/manoscritto.jpg);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: left;
+}
+h1 {
+
+  color: #EAEAEA;
+  font-family: 'Unna', serif;
+  justify-content:left;
+  border-radius: 20px;
+  background-color: rgba(132, 5, 33 ,0.7);
+  padding:20px;
+  height: 100px;
+  margin-left: 80px;
+
+}
+
+h2 {
+  color:#840521;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+.bg-light {
+  background-color: #840521!important; 
+}
+
+.dropdown-menu{
+  background-color: #840521;
+}
+
+a{
+  color:#840521;
+}
+
+a:hover{
+  color:#840521;
+}
+
+.btn-outline-success {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-success:hover{
+  border-color: white;
+  background-color: white;
+  color: #840521;
+}
+
+.btn-primary{
+  background-color: #840521;
+  border-color: #840521;
+}
+
+.btn-primary:hover{
+  background-color: #840521;
+  border-color: #840521;
+
+}
+
+footer{
+  text-align: center;
+  background-color:#840521;
+  padding: 50px;
+  margin-top: 20px;
+  color:white;
+}
+
+.btn-light{
+  color: #840521;
+}
+
+.btn-light:hover{
+  color: #840521;
+}
+
+.card-header{
+  text-align: justify;
+}
+
+.share{
+  margin: 20px;
+}
+
+.btn-outline-danger{
+  margin: 5px;
+}
+
+body:not(h1) {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+}
+
+.btn-outline-danger {
+  border-color: #840521;
+  color:#840521;
+}
+
+.btn-outline-danger:hover {
+  background-color: #840521;
+  border-color: #840521;
+}

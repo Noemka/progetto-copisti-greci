@@ -1,0 +1,26 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title>
+<!--supply a title-->
+ </title>
+ </titleStmt>
+ <publicationStmt>
+ <publisher/>
+ </publicationStmt>
+ <sourceDesc>
+ <p>
+<!--supply information about the source-->
+ </p>
+ </sourceDesc>
+ </fileDesc>
+ </teiHeader>
+ <text>
+<body>
+<p xml:lang="en" n="9">Then the king begins to work his jaw again, and says how him and his nieces would be glad if a few of the main principal friends of the family would take supper here with them this evening, and help set up with the ashes of the diseased; and says if his poor brother laying yonder could speak he knows who he would name, for they was names that was very dear to him, and mentioned often in his letters; and so he will name the same, to wit, as follows, vizz.:—Rev. <choice>
+<abbr>Mr.</abbr>
+</choice> <expan>Mister</expan> Hobson, and Deacon Lot Hovey, and Mr. Ben Rucker, and Abner Shackleford, and Levi Bell, and Dr. Robinson, and their wives, and the widow Bartley.Example 1. A fragment of Huckleberry Finn.</p>
+</body>
+ </text>
+ </TEI>

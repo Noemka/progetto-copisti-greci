@@ -1,0 +1,74 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitalizzazione del f. 122r del manoscritto Vat. Gr. 1410</title>
+        <respStmt>
+          <resp>editor</resp>
+<name xml:id="NG">Noemi Gravante</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<p>Fruizione libera</p>
+</publicationStmt>
+<sourceDesc>
+<p>Repertorium der griechischen Kopisten, 800-1600,  vol. 3: Handschriften aus Bibliotheken Roms mit dem Vatikan.</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+  <listBibl>
+    <msIdentifier>
+      <settlement>Città del Vaticano</settlement>
+      <repository>Biblioteca Apostolica Vaticana</repository>
+      <idno>ms. Vat. Gr. 1410</idno>
+      <altIdentifier>
+        <idno> 216592</idno>
+      </altIdentifier>
+    </msIdentifier>
+    <msContents>
+      <msItem>
+        <locus>122r</locus>
+        <author>Anonimo</author>
+        <respStmt>
+          <resp>vergato nella scrittura di</resp>
+          <name role="scribe" type="person">Alessandro Bondini</name>
+          </respStmt>
+        <title xml:lang="la">Vita Apollonii Alexandrini</title>
+        <incipit xml:lang="el">Ἀπολλώνιος οὐτος Ἀλεξανδρείας μέν τό γένος</incipit>
+        <textLang>Greco</textLang>
+      </msItem>
+    </msContents>
+    <physDesc>
+      <objectDesc form="codex">
+        <supportDesc>
+          <support>Carta</support>
+          <extent>I + 208 carte</extent>
+        </supportDesc>
+        <condition>
+          <p>Buono</p>
+        </condition>
+        <layoutDesc>
+          <layout>
+            <p>29 righe per folio.</p>
+          </layout>
+        </layoutDesc>
+        <handDesc hands="1">
+          <handNote>
+            <p> Vergato dalla mano di <name role="scribe" type="person">Alessandro Bondini</name> con una scrittura di piccolo formato, compatta, informale senza alcun tentativo di <term type="handwriting">stilizzazione</term>, appartenente al campo delle <term type="handwriting">scholarly hands</term>. Aste inferiori ridotte, aste superiori modeste. Spirito e accento sono solitamente separati; occasionali combinazioni di accento e spirito o di lettere e accenti. Iota sottoscritto.</p>
+            <p>Senza <term type="handwriting"> alternanza modulare </term> dal <term type="handwriting">ductus</term> <term type="handwriting">corsiveggiante</term> e dall'asse delle lettere leggermente inlcinato con grande presenza di <term type="handwriting">legature</term>.</p>
+          </handNote>
+        </handDesc>
+      </objectDesc>
+    </physDesc>
+    <history>
+      <origin>Il manoscritto non è ancora stato localizzato con certezza ma è possibile datarlo tra la <date>fine del XV e l'inizio del XVI secolo</date></origin>
+      <provenance>Il manoscritto era posseduto da <name role="owner" type="person">Fulvio Orsini</name>, bibliotecario della famiglia Farnese.</provenance>
+      <provenance>Dopo la morte di <name role="owner" type="person">Fulvio Orsini</name>, i suoi manoscritti sono confluiti dei possedimenti della Biblioteca Vaticana.</provenance>
+      <acquisition notBefore="1599" notAfter="1601"> Il manoscritto è stato acquisito dalla Biblioteca Vaticana alla morte di Fulvio Osini nel 1600</acquisition>
+    </history>
+  </listBibl>
+</body>
+</text>
+</TEI>

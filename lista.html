@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="DC.Title" content="RGK Online">
+    <meta name="DC.Creator" content="Noemi Gravante">
+    <meta name="DC.Subject" content="Copisti greci, manoscritti, stili di scrittura">
+    <meta name="DC.Description" content="Digitalizzazione delle caratteristiche di scrittura dei copisti greci attraverso le loro manifestazioni nei manoscritti dall'800 al 1600">
+    <meta name="DC.Publisher"
+        content="Alma Mater Studiorum Università di Bologna">
+    <meta name="DC.Contributor"
+        content="Noemi Gravante">
+    <meta name="DC.Date" content="2021">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
+    <meta name="DC.Source" content="Repertorium der griechischen Kopisten, 800-1600 Verlag der Österreichischen Akademie der Wissenschaften Wien 1981-">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation"
+        content="Pinakes, DigiVatLib, Repertorium der griechischen Kopisten, 800-1600 vol.1 ISBN 3700103980/ Vol. 2 ISBN 3700115571 / Vol. 3">
+    <link rel="DC.Coverage"
+        href="http://vocab.getty.edu/page/tgn/7003127">
+    <meta name="DC.Rights"
+        content="https://creativecommons.org/licenses/by/4.0/deed.it">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Unna:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Unna:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="style-lista.css">
+    <title>RGK Online - Scritture personali </title>
+  </head>
+  <body>
+    <header>
+        <h1> RGK Online</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><i class="fas fa-book-reader fa-2x"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" target="_blank">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cronologia</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Lista
+          </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Stili</a>
+          <a class="dropdown-item" href="#">Tipi</a>
+          <a class="dropdown-item" href="#">Scritture personali</a>
+          <!-- <div class="dropdown-divider"></div> -->
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Biblioteche</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Manoscritti</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Copisti</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cerca</button>
+    </form>
+  </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<main>
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 pb-4 pt-4">
+        <h2 id="top"><span>Scritture personali</span></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+        <aside>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html" target="_blank">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Scritture</li>
+            </ol>
+          </nav>
+          <p>Filtra per:</p>
+          <button type="button" class="btn btn-outline-danger">A-Z</button>
+          <button type="button" class="btn btn-outline-danger">Z-A</button>
+          <button type="button" class="btn btn-outline-danger">Più recente</button>
+          <button type="button" class="btn btn-outline-danger">Più antico</button>
+          <hr>
+          <button type="button" class="btn btn-outline-danger">Alternanza di modulo</button>
+          <button type="button" class="btn btn-outline-danger">Ductus posato</button>
+          <button type="button" class="btn btn-outline-danger">Ductus corsivo</button>
+          <button type="button" class="btn btn-outline-danger">Tracciato angoloso</button>
+          <button type="button" class="btn btn-outline-danger">Tracciato arrotondato</button>
+          <button type="button" class="btn btn-outline-danger">Scritture formali</button>
+          <button type="button" class="btn btn-outline-danger">Scritture informali</button>
+          <div class="checkbox-container mt-4">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Stili
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">D'ispirazione Fettaugenmode</button>
+                <button class="dropdown-item" type="button">D'ispirazione Metochitesstil</button>
+                <button class="dropdown-item" type="button">D'ispirazione Hodegòn</button>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox-container mt-4">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Biblioteche
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Regno Unito</button>
+                <button class="dropdown-item" type="button">Francia</button>
+                <button class="dropdown-item" type="button">Roma e Vaticano</button>
+                <button class="dropdown-item" type="button">Tutte e tre</button>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-12">
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action" title="Angelo Poliziano">Angelo Poliziano </a>
+                <a href="item.html" class="list-group-item list-group-item-action" title="Alessandro Bondino">Alessandro Bondini</a>
+                <a href="#" class="list-group-item list-group-item-action" title="Alvise Lollino">Alvise Lollino</a>
+                <a href="#" class="list-group-item list-group-item-action" title="Andronico Callisto">Andronico Callisto</a>
+                <a href="#" class="list-group-item list-group-item-action" title="Giorgio Balsamone">Giorgio Balsamone</a>
+                <a href="#" class="list-group-item list-group-item-action" title="Giorgio Galesiota"> Giorgio Galesiota</a>
+                <a href="#" class="list-group-item list-group-item-action"title="Demetrio Calcondila">Demetrio Calcondila</a>
+                <a href="#" class="list-group-item list-group-item-action" title="Enrico Stefano"> Enrico Stefano</a>
+                <a href="#" class="list-group-item list-group-item-action" title="Teodora Raulena"> Teodora Raulena Cantacuzena Paleologina</a>
+                <a href="#" class="list-group-item list-group-item-action" title="Giovanni Battista Modio">Giovanni Battista Modio</a>
+                <a href="#" class="list-group-item list-group-item-action" title="Palla Strozzi">Palla Strozzi</a>
+              </div>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+      <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+        <aside>
+            <div class="box">
+              <h3> <a href="#">FAQ</a></h3>
+            </div>
+            <div class="box mt-4">
+              <h3><a href="#">Guida</a></h3>
+            </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; <strong>Noemi Gravante, corso di Digital Humanities e patrimonio culturale 2021</strong></p>
+  <p> <a href="#">Chi siamo</a></p>
+  <p> <a href="#top">Torna su </a></p>
+  <p> <a href="#">Licenze</a></p>
+  <p> <a href="#">Lavora con noi</a></p>
+  <i class="fab fa-facebook fa-2x"></i>
+  <i class="fab fa-twitter-square fa-2x"></i>
+  <i class="fab fa-instagram fa-2x"></i>
+</footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <library xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="RGK">
+    <author xml:id="RGK">
+      <text xml:id="RGK-01">
+      <dc:title>scheda digitale del ms. Città del Vaticano, BAV, Vat. gr. 1410</dc:title>
+      <dc:creator></dc:creator>
+      <dc:date>05/06/2021</dc:date>
+      <dc:subject>copisti greci</dc:subject>
+      <dc:subject>scritture personali</dc:subject>
+      <dc:subject>schedatura di manoscriti</dc:subject>
+      <dc:description>Manoscritto di fine XV/ inizio XVI secolo riconducibile a un gruppo di copisti attivi nell'area del nord Italia, più precisamente a Venezia, i quali ricopiano testi di carattere retorico volti all'apprendimento della lingua greco del più alto livello possibile.</dc:description>
+      <dc:publisher>RGK Online</dc:publisher>
+      <dc:type>Manoscritto</dc:type>
+      <dc:format>HTML/CSS/XML</dc:format>
+      <dc:identifier>file:///C:/Users/S505-BR238/Desktop/Repertorio/item.html</dc:identifier>
+      <dc:language>EL</dc:language>
+      <dc:coverage>Venezia fine XV secolo - Inizio XVI</dc:coverage>
+      <dc:rights>Copyright 2021 Noemi Gravante - CC-BY, Creative Commons</dc:rights>
+      <dc:contributor> Noemi Gravante </dc:contributor>
+      <dc:source>IT\ICCU\RML\0129948</dc:source>
+      </text>
+    </author>
+  </library>

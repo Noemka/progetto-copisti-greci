@@ -1,0 +1,209 @@
+header {display: flex;
+  background-image: url(Immagini/manoscritto.jpg);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: left;
+}
+h1 {
+
+  color: #EAEAEA;
+  font-family: 'Unna', serif;
+  justify-content:left;
+  border-radius: 20px;
+  background-color: rgba(132, 5, 33 ,0.7);
+  padding:20px;
+  height: 100px;
+  margin-left: 80px;
+
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color:white;
+}
+
+h2 {
+  color:#840521;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Playfair Display SC', serif;
+}
+
+.breadcrumb a{
+  color:#840521;
+}
+
+.breadcrumb a:hover {
+  color:#840521;
+}
+
+.aside a {
+  color:#840521;
+}
+
+.aside a:hover{
+  color:#840521;
+}
+
+.bg-light {
+  background-color: #840521!important;
+}
+
+.dropdown-menu{
+  background-color: #840521;
+}
+
+.share button{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.box{
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+
+.box img{
+  width: 100%;
+  padding-top: 50px;
+}
+
+.box-1{
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+
+.box-1 img{
+  width: 100%;
+  padding-top: 50px;
+}
+
+.share button a{
+  text-decoration: none;
+  color: #840521;
+}
+.btn-outline-success {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-success:hover{
+  border-color: white;
+  background-color: white;
+  color: #840521;
+}
+
+.share button:hover a, .box-1 a:hover{
+  color:white;
+}
+
+.btn-primary{
+  background-color: #840521;
+  border-color: #840521;
+}
+
+.btn-primary:hover{
+  background-color: #840521;
+  border-color: #840521;
+
+}
+
+.box a {
+  color:#840521;
+}
+
+.box a:hover{
+  color:#840521;
+}
+
+
+
+footer{
+  text-align: center;
+  background-color:#840521;
+  padding: 50px;
+  margin-top: 20px;
+  color:white;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  padding:10px 15px;
+  transition:border-radius 2s;
+
+
+
+}
+
+footer a:hover{
+  background-color: white;
+  color: #840521;
+  border-radius: 20px;
+
+
+
+}
+/*
+.share a{
+  border-color: #840521;
+  color:#840521;
+}
+
+.share a:hover{
+  color:white;
+}
+*/
+.btn-light{
+  color: #840521;
+}
+
+.btn-light:hover{
+  color: #840521;
+}
+
+.card-header{
+  text-align: justify;
+}
+
+.share{
+  margin: 20px;
+}
+
+.btn-outline-danger{
+  margin: 5px;
+}
+
+body:not(h1) {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+}
+
+.opac a{
+  color:#840521;
+}
+
+.opac a:hover{
+  color:#840521;
+}
+
+.btn-outline-danger {
+  border-color: #840521;
+  color:#840521;
+}
+
+.btn-outline-danger:hover {
+  background-color: #840521;
+  border-color: #840521;
+}
+
+.aside{
+  padding: 5px;
+}

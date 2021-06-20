@@ -1,0 +1,137 @@
+header {display: flex;
+  background-image: url(Immagini/manoscritto.jpg);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: left;
+}
+h1 {
+
+  color: #EAEAEA;
+  font-family: 'Unna', serif;
+  justify-content:left;
+  border-radius: 20px;
+  background-color: rgba(132, 5, 33 ,0.7);
+  padding:20px;
+  height: 100px;
+  margin-left: 80px;
+
+}
+
+h2 {
+  color:#840521;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+.bg-light {
+  background-color: #840521!important; 
+}
+
+.dropdown-menu{
+  background-color: #840521;
+}
+
+.btn-outline-success {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-success:hover{
+  border-color: white;
+  background-color: white;
+  color: #840521;
+}
+
+
+a{
+  color:#840521;
+}
+
+a:hover{
+  color:#840521;
+}
+
+footer{
+  text-align: center;
+  background-color:#840521;
+  padding: 50px;
+  margin-top: 20px;
+  color:white;
+}
+
+a.page-link{
+  color:#840521;
+}
+
+a.page-link:hover{
+  background-color: #840521;
+  color: white;
+}
+
+.btn-outline-danger {
+  border-color: #840521;
+  color:#840521;
+  margin: 3px;
+}
+
+.btn-outline-danger:hover {
+  background-color: #840521;
+  border-color: #840521;
+}
+
+ul.pagination{
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-image: url(Immagini/grid.png);
+  background-position: center;
+  background-size: auto;
+  text-align: center;
+  background-position: bottom;
+
+
+}
+
+
+.box h3{
+  vertical-align: middle;
+  line-height: 200px;
+  font-weight: bold;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color:white;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  padding:10px 15px;
+  transition:border-radius 2s;
+
+
+
+}
+
+footer a:hover{
+  background-color: white;
+  color: #840521;
+  border-radius: 20px;
+
+
+
+}
+
+body:not(h1) {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+}

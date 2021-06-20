@@ -1,0 +1,97 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Scheda catalografica del ms. Vaticano, BAV, Vat. gr. 1410: una digitalizzazione</title>
+<respStmt>
+<resp>editor</resp>
+<name xml:id="NG">Noemi Gravante</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<p>Fruizione libera</p>
+</publicationStmt>
+<sourceDesc>
+<p>	Nolhac (de), 1887, La bibliothèque de Fulvio Orsini. Contributions à l'histoire des collections d'Italie et à l'étude de la Renaissance</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+  <listBibl>
+    <msIdentifier>
+      <settlement>Città del Vaticano</settlement>
+      <repository>Biblioteca Apostolica Vaticana</repository>
+      <idno>ms. Vat. Gr. 1410</idno>
+      <altIdentifier>
+        <idno> 216592</idno>
+      </altIdentifier>
+    </msIdentifier>
+    <msContents>
+      <msItem>
+        <locus>1-52v</locus>
+        <author>Anonimo</author>
+        <title xml:lang="la">Lexicon per elementa id est per alphabetum</title>
+        <incipit xml:lang="el"></incipit>
+        <textLang>Greco</textLang>
+      </msItem>
+      <msItem>
+        <locus>53r-v</locus>
+        <author>Anonimo</author>
+        <title xml:lang="la">Decem oratorum nomina</title>
+        <incipit xml:lang="el"></incipit>
+        <textLang>Greco</textLang>
+      </msItem>
+      <msItem>
+        <locus>54-81v</locus>
+        <author>Tommaso Magistro</author>
+        <author xml:lang="la">Thomas Magister</author>
+        <title xml:lang="la">Ecloga vocum atticarum</title>
+        <incipit xml:lang="el">Αἰχμάλωτον ποιῶ καὶ αἰχμάλωτος γίνομαι Ἀττικοὶ λέγουσιν</incipit>
+        <textLang>Greco</textLang>
+      </msItem>
+      <msItem>
+        <locus>81-121v</locus>
+        <author>Giorgio Lacapeno</author>
+        <author xml:lang="la"> Georgius Lacapenus </author>
+        <title xml:lang="la">Epistulae</title>
+        <incipit xml:lang="el">Τῷ μηδὲν ἡμᾶς σοι γράφειν ἀχθόμενος ταὐτὰ διδάσκεις πάσχειν τοὺς οὔπω μεμψαμένους σου τὴν σιγήν</incipit>
+        <textLang>Greco</textLang>
+      </msItem>
+      <msItem>
+        <locus>122-193</locus>
+        <author>Apollonio Discolo</author>
+        <author xml:lang="la">Apollonius Dyscolus</author>
+        <title xml:lang="la">Vita et De constructione libri IV</title>
+        <incipit xml:lang="el">Ἀπολλώνιος οὐτος Ἀλεξανδρείας μέν τό γένος</incipit>
+        <textLang>Greco</textLang>
+      </msItem>
+      <msItem>
+        <locus>193-208</locus>
+        <author>Frinico Atticista</author>
+        <author xml:lang="la">Phrynichus Atticista</author>
+        <title xml:lang="la">Eclogae</title>
+        <incipit xml:lang="el"> Τήν τε ἄλλην σου παιδείαν θαυμάζων, ἣν διαφερόντως ὑπὲρ ἅπαντας</incipit>
+        <textLang>Greco</textLang>
+      </msItem>
+    </msContents>
+    <physDesc>
+      <objectDesc>
+        <supportDesc>
+          <support>Carta</support>
+          <extent>I + 208 folii</extent>
+        </supportDesc>
+        <layoutDesc>
+          <layout>
+            <p>In media 30 righe per folio</p>
+          </layout>
+        </layoutDesc>
+      </objectDesc>
+      <handDesc>
+        <p>Scritto dalla mano di cinque copisti</p>
+      </handDesc>
+    </physDesc>
+  </listBibl>
+</body>
+</text>
+</TEI>
